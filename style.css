@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    min-height: 100vh;
+    height: 1500px;
+    font-size: 1.5em;
+    color: aliceblue;
+}
+
+div {
+    display: inline-block;
+    width: 20%;
+    margin-left: 1rem;
+}
+
+#px2000 {
+    height: 2000px;
+    background-color: blue;
+}
+
+#prc100 {
+    /* height =  1500px same as the parent (body)*/
+    height: 100%;
+    background-color: rgb(255, 149, 0);
+}
+#vh100 {
+    height: 100vh;
+    background-color: rgb(255, 0, 238);
+}
